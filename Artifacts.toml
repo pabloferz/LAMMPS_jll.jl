@@ -1,0 +1,60 @@
+[[LAMMPS]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a45721c8cfaf24a7987427778c89929d22902c94"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "daf365236018adcb7305fdc6ab2d34614a1e5ea0375ffe5c1248a28b6d9e552d"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.aarch64-linux-gnu-cxx11.tar.gz"
+[[LAMMPS]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "35837c904e6e5d4de2803b80fc9ebff708849df3"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "662da46b854c46fd4a8e8a23be31878cc219db4bc39dfdd882296aa84aad8a3f"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.aarch64-linux-gnu-cxx03.tar.gz"
+[[LAMMPS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5749b506fe75f3ef66cc2c42928ed6c301793d64"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "5bd2ad37ab11c55d353f402d8171a57a5f98c8d6650dc861464afd3d98cffaa0"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.x86_64-linux-gnu-cxx11.tar.gz"
+[[LAMMPS]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6b5b638b6db42c54af98cbe19843bd7cd7902bb2"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "3da790d2d553b1a83ed4a2c0503430ebf3c29a9e47b3f021a72987e57ded33b9"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[LAMMPS]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d882a9fcfa32088fb2c4a94b5fca53230c90fa84"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "da6d96a18602e3437cbeb0b8e85f8280c8c259f13e3a915b1b30844c9a10f01f"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[LAMMPS]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c1045a78e24fc52d08566e213b54b3eb14d8af0f"
+libc = "glibc"
+os = "linux"
+
+    [[LAMMPS.download]]
+    sha256 = "9678c21149f6de89eff61718bc73361cfe24504d8146cb1c6350802f741df238"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+0/LAMMPS.v2019.8.7.x86_64-linux-gnu-cxx03.tar.gz"
