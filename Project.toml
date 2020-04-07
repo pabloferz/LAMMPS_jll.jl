@@ -1,9 +1,10 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "2020.3.3+0"
+version = "2019.8.7+1"
 
 [deps]
 FFMPEG_jll = "b22a6f82-2f65-5046-a5b2-351ab43fb4e5"
+MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 OpenBLAS_jll = "4536629a-c528-5b80-bd46-f80d51c5b363"
@@ -11,7 +12,6 @@ Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 FFTW_jll = "f5851436-0d7a-5f13-b9de-f02708fd171a"
-OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
 
 [compat]
 julia = "1.0"

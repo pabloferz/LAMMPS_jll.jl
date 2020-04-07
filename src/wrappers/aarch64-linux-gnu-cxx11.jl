@@ -4,8 +4,8 @@ export lammps, liblammps
 using CompilerSupportLibraries_jll
 using FFMPEG_jll
 using FFTW_jll
+using MPICH_jll
 using OpenBLAS_jll
-using OpenMPI_jll
 using Zlib_jll
 using libpng_jll
 ## Global variables
@@ -69,8 +69,8 @@ function __init__()
     append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (CompilerSupportLibraries_jll.PATH_list, FFMPEG_jll.PATH_list, FFTW_jll.PATH_list, OpenBLAS_jll.PATH_list, OpenMPI_jll.PATH_list, Zlib_jll.PATH_list, libpng_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (CompilerSupportLibraries_jll.LIBPATH_list, FFMPEG_jll.LIBPATH_list, FFTW_jll.LIBPATH_list, OpenBLAS_jll.LIBPATH_list, OpenMPI_jll.LIBPATH_list, Zlib_jll.LIBPATH_list, libpng_jll.LIBPATH_list,))
+    foreach(p -> append!(PATH_list, p), (CompilerSupportLibraries_jll.PATH_list, FFMPEG_jll.PATH_list, FFTW_jll.PATH_list, MPICH_jll.PATH_list, OpenBLAS_jll.PATH_list, Zlib_jll.PATH_list, libpng_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (CompilerSupportLibraries_jll.LIBPATH_list, FFMPEG_jll.LIBPATH_list, FFTW_jll.LIBPATH_list, MPICH_jll.LIBPATH_list, OpenBLAS_jll.LIBPATH_list, Zlib_jll.LIBPATH_list, libpng_jll.LIBPATH_list,))
 
     global lammps_path = normpath(joinpath(artifact_dir, lammps_splitpath...))
 
