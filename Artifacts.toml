@@ -1,60 +1,60 @@
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "01d4ffaf992eb6bbdbec798f7f9b98aaf1cd3c2b"
+git-tree-sha1 = "0db7697cf56d30e968ae3e311da0a05b713e7949"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "e960db21925a1a8c31b1c6c2d05fbd513e0a433e8488e1afb768b9078ffa698c"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "2ad76254dee16add73aa02445e389cc3bf921566738a412b971b2fe1a94f4187"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.aarch64-linux-gnu-cxx11.tar.gz"
 [[LAMMPS]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "db4ffe0448bf7409306a632b24daf59cc1aab6bf"
+git-tree-sha1 = "af662deaed1395a58a1af57a55a03c75df6e0b13"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "340c202d531ec0585c4a1fcd8099ade07b95603acee864393b71972ab532e7a2"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "2fd80c0864149a89157dcf01eeb7b3d42f6407202d9626dab8c4e60e939e9f00"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.aarch64-linux-gnu-cxx03.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e0d246aeb0f3f38db1b7b4464280950840736750"
+git-tree-sha1 = "cc021f7859bfa1e1e9db6f9215f7ff9e07963f73"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "d2cba63487c34ae71790f4963d959696fa46b4d589e09aca67bb5fa87d61f50b"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "49609b9845fa34f4d2ff5189469816c469ecfdea69e20ea4c43d08d4703e2927"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "52fc2eaaa2a40663d6cf27648c8b41577867b4cb"
+git-tree-sha1 = "2429169b52c6a364ea0a683cab7b2c1daec3df88"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "2195bb90be13af8623a0d033f1b3e3b44e5c4affce0aff7dd1d1bea5cf614383"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "7b5304ea0861e98be2f888bfa866b31b73b3e67a07e2657d9a9e8d56923f4e44"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[LAMMPS]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4d8f75d1534361bcc382327ad34e40c2999cd7f1"
+git-tree-sha1 = "0f47759294adb93af61ac8f2e85be9b92f26c42f"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "a340b9bbf0e5fdadd118a193522856c1c4319cb33b44fa611b2649b05fa641a6"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "b46c5ae67190f6a80d3a8b66b69aeceb2af7e5b028a9b638fa7beff5c21c62fa"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[LAMMPS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a5204b27b3098a349195026de35bf992e5a87a4b"
+git-tree-sha1 = "a43f7d6f2d7698e3e881b5c3aed1d71ac7853d5a"
 libc = "glibc"
 os = "linux"
 
     [[LAMMPS.download]]
-    sha256 = "f49e80b063be57153c09c0f13689c78300c3fb90bfaf42a220c2e0bf2d34c10d"
-    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2019.8.7+1/LAMMPS.v2019.8.7.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "afbb142a8e81e97ddf9b8a040fc5a87f12b18a89987d3602373f23bcee7f543e"
+    url = "https://github.com/pabloferz/LAMMPS_jll.jl/releases/download/v2020.3.3+1/LAMMPS.v2020.3.3.x86_64-linux-gnu-cxx03.tar.gz"

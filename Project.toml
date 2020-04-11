@@ -1,6 +1,6 @@
 name = "LAMMPS_jll"
 uuid = "5b3ab26d-9607-527c-88ea-8fe5ba57cafe"
-version = "2019.8.7+1"
+version = "2020.3.3+1"
 
 [deps]
 FFMPEG_jll = "b22a6f82-2f65-5046-a5b2-351ab43fb4e5"
